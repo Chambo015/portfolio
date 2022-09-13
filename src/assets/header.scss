@@ -1,0 +1,16 @@
+.header>div:first-of-type {
+    position: absolute;
+    right:  0;
+    top: 0;
+    height: 100%;
+    width: max(70vmax, 90%);
+  }
+  .content-wrap {
+    background: url('../assets/p.png');
+    opacity: 0.3;
+    position: absolute;
+    right:  0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
