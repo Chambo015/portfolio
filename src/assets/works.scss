@@ -6,13 +6,14 @@
 .item {
   @apply 2xl:min-w-[30vmin] 2xl:mx-5 2xl:min-h-[40vmin] min-w-[35vmin] min-h-[60vmin] mx-4 ;
   opacity: 0.25;
-  transition: transform 600ms cubic-bezier(0.25, 1, 0.35, 1), opacity 600ms;
+  transition: transform 600ms, opacity 600ms;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
   user-select: none;
+  will-change: transform;
 
   &--prev {
     &:hover {
@@ -78,6 +79,8 @@
     margin: 0;
     padding: 0;
     transition: transform 600ms cubic-bezier(0.25, 1, 0.35, 1);
+    will-change: transform;
+
 
     @media (hover) {
       .item--current:hover img {

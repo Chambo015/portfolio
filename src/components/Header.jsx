@@ -21,11 +21,13 @@ export default function Header() {
           <ul className='flex flex-col gap-1 my-2'>
             <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>HTML</span>, <span className='opacity-90 font-normal text-highlight'>CSS</span>, <span className='opacity-80 font-light'>Адаптивная вёрстка</span></p></li>
             <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>JavaScript</span>, <span className='opacity-90 font-normal text-highlight'>ООП</span>, <span className='opacity-75 font-light'>Axios</span>, <span className='opacity-70 font-light'>TypeScript</span></p></li>  
-            <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>ReactJS</span>, <span className='opacity-90 font-normal'>Vue</span></p></li>
+            <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>Vue 3</span>, <span className='opacity-90 font-normal'>React</span></p></li>
             <li><p className='xl:text-3xl md:text-2xl text-lg'>< span className='font-normal text-highlight'>Redux Toolkit</span>, <span className='opacity-90 font-normal'>React-Router</span>, <span className='opacity-75 font-light'>React-Hook-Form</span></p></li>
+            <li><p className='xl:text-3xl md:text-2xl text-lg'>< span className='font-normal text-highlight'>Pinia</span>, <span className='opacity-90 font-normal'>Vue Router</span>, <span className='opacity-75 font-light'>VueUse</span></p></li>
             <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>Node Js</span>, <span className='opacity-90 font-normal text-highlight'>Express</span>, <span className='opacity-75 font-light'>Mongoose</span></p></li>  
-            <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>Tailwindcss</span>, <span className='opacity-80 font-normal'>Bootstrap</span></p></li>  
+            <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>Tailwindcss</span>, <span className='opacity-80 font-normal'>SCSS</span></p></li>  
             <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>GitHub</span>, <span className='opacity-80 font-normal'>Git</span></p></li>  
+            <li><p className='xl:text-3xl md:text-2xl text-lg'><span className='font-semibold text-highlight'>GSAP</span>, <span className='opacity-80 font-normal'>Motion One</span></p></li>  
           </ul>
       </div>
       </div>

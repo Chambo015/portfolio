@@ -2,8 +2,43 @@ import images from '../images';
 
 const pet = [
   {
+    id: 7,
+    title: 'NimblTV Landing',
+    stack: ['Vue 3', 'Typescript', 'Tailwindcss', 'GSAP' , 'keen-slider', 'Vite', 'luxy.js', 'lazysizes', 'sass'],
+    img: images.image7,
+    gitHubLink: 'https://github.com/Chambo015/NIMBL-Landing',
+    demoLink: 'https://nimbl.tv/'
+  },
+  {
+    id: 8,
+    title: 'Blockchain University Landing',
+    stack: ['Vue 3', 'Typescript', 'Tailwindcss', 'Motion One' , 'GSAP' , 'keen-slider', 'Vite', 'maska', 'lazysizes', 'firebase'],
+    img: images.image8,
+    gitHubLink: 'https://github.com/Chambo015/BU-Landing',
+    demoLink: 'https://web3u.dev/'
+  },
+  {
+    id: 9,
+    title: 'Nimbl Platform',
+    stack: ['Vue 3', 'Typescript', 'Pinia' , 'Vue Router', 'firebase', 'Tailwindcss', 'Motion One' ,  "apexcharts",  'Vite', 'headlessui', 'vueuse',],
+    img: images.image9,
+    gitHubLink: 'https://github.com/Chambo015/Nimbl-Vue3',
+    demoLink: 'https://chambo015.github.io/Nimbl-Vue3/'
+  },
+  {
+    id: 5,
+    title: 'TLOTR на WordPress',
+    stack: [
+      'WordPress',
+      'Yoast SEO',
+      'Elementor'
+    ],
+    img: images.image5,
+    demoLink: 'https://tlotr.ru/'
+  },
+  {
     id: 1,
-    title: 'Pizza на Vue',
+    title: 'Pet-проект Pizza на Vue',
     stack: ['Vue', 'Vuex', 'Vue router', 'axios', 'Tailwind', 'mockapi'],
     img: images.image1,
     gitHubLink: 'https://github.com/Chambo015/dodopizza',
@@ -11,7 +46,7 @@ const pet = [
   },
   {
     id: 2,
-    title: 'Todo MERN',
+    title: 'Pet-проект Todo MERN',
     stack: [
       'Node',
       'Express',
@@ -35,7 +70,7 @@ const pet = [
   },
   {
     id: 3,
-    title: 'Movie Search на Angular',
+    title: 'Pet-проект Movie Search на Angular',
     stack: [
       'Angular 14',
       'TypeScript',
@@ -47,7 +82,7 @@ const pet = [
   },
   {
     id: 4,
-    title: 'Star-Wars на Angular',
+    title: 'Pet-проект Star-Wars на Angular',
     stack: [
       'Angular 14',
       'Angular Material',
@@ -58,17 +93,6 @@ const pet = [
     img: images.image4,
     gitHubLink: 'https://github.com/Chambo015/star-wars',
     demoLink: 'https://chambo015.github.io/star-wars/auth'
-  },
-  {
-    id: 5,
-    title: 'TLOTR на WordPress',
-    stack: [
-      'WordPress',
-      'Yoast SEO',
-      'Elementor'
-    ],
-    img: images.image5,
-    demoLink: 'https://tlotr.ru/'
   },
   {
     id: 6,

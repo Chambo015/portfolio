@@ -12,7 +12,7 @@ const classNavigators =
 
 export default function Works({setScrollTo}) {
   const [translateX, setTranslateX] = useState({});
-  const [current, setCurrent] = useState(2);
+  const [current, setCurrent] = useState(0);
   const carousel = useRef(null);
   const worksRef = useRef(null);
 
@@ -30,7 +30,7 @@ export default function Works({setScrollTo}) {
   return (
     <div ref={worksRef} className="min-h-screen works  ">
       <div className="container mx-auto relative py-9 overflow-x-hidden ">
-        <h2 className="text-4xl font-semibold mb-4 text-center">Pet-проекты</h2>
+        <h2 className="text-4xl font-semibold mb-10 text-center">Работы</h2>
         <div className="carousel ml-[30%] relative 2xl:min-h-[40vmin] min-h-[60vmin]">
           <div
             ref={carousel}
