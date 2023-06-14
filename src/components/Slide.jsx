@@ -15,7 +15,7 @@ export default function Slide({ img, setCurrent, current, index }) {
   }
 
   function handleMouseLeave(event) {
-    slide.current.style.setProperty('--x', 0);
+    slide.current.style.setProperty('--x',0);
     slide.current.style.setProperty('--y', 0);
   }
   return (
